@@ -22,3 +22,5 @@ def longest_substring_with_k_distinct(str1, k):
         # remember the maximum length so far
         max_length = max(max_length, window_end-window_start + 1)
     return max_length
+
+# Time: O(n) and space O(k)
